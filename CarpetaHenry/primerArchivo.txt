@@ -1,0 +1,73 @@
+
+altor@AlexisTorruco MINGW64 ~/OneDrive/Documentos/HENRY FULL STACK DEVELOPER/MÓDULO 0/03. HomeWork M0 - C2 Terminal, Git & GitHub
+$ pwd
+/c/Users/altor/OneDrive/Documentos/HENRY FULL STACK DEVELOPER/MÓDULO 0/03. HomeWork M0 - C2 Terminal, Git & GitHub
+
+altor@AlexisTorruco MINGW64 ~/OneDrive/Documentos/HENRY FULL STACK DEVELOPER/MÓDULO 0/03. HomeWork M0 - C2 Terminal, Git & GitHub
+$ git clone https://github.com/AlexisTorruco/RepositorioHenry.git
+Cloning into 'RepositorioHenry'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+
+altor@AlexisTorruco MINGW64 ~/OneDrive/Documentos/HENRY FULL STACK DEVELOPER/MÓDULO 0/03. HomeWork M0 - C2 Terminal, Git & GitHub
+$ ls
+RepositorioHenry/
+
+altor@AlexisTorruco MINGW64 ~/OneDrive/Documentos/HENRY FULL STACK DEVELOPER/MÓDULO 0/03. HomeWork M0 - C2 Terminal, Git & GitHub
+$ cd RepositorioHenry/
+
+altor@AlexisTorruco MINGW64 ~/OneDrive/Documentos/HENRY FULL STACK DEVELOPER/MÓDULO 0/03. HomeWork M0 - C2 Terminal, Git & GitHub/RepositorioHenry (main)     
+$ mkdir CarpetaHenry
+
+altor@AlexisTorruco MINGW64 ~/OneDrive/Documentos/HENRY FULL STACK DEVELOPER/MÓDULO 0/03. HomeWork M0 - C2 Terminal, Git & GitHub/RepositorioHenry (main)     
+$ cd CarpetaHenry
+
+altor@AlexisTorruco MINGW64 ~/OneDrive/Documentos/HENRY FULL STACK DEVELOPER/MÓDULO 0/03. HomeWork M0 - C2 Terminal, Git & GitHub/RepositorioHenry/CarpetaHenry (main)
+$ touch primerArchivo.txt
+
+altor@AlexisTorruco MINGW64 ~/OneDrive/Documentos/HENRY FULL STACK DEVELOPER/MÓDULO 0/03. HomeWork M0 - C2 Terminal, Git & GitHub/RepositorioHenry/CarpetaHenry (main)
+$ ls
+primerArchivo.txt
+
+y (main)
+$ git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Disable this message with "git config set advice.addEmptyPathspec false"
+
+altor@AlexisTorruco MINGW64 ~/OneDrive/Documentos/HENRY FULL STACK DEVELOPER/MÓDULO 0/03. HomeWork M0 - C2 Terminal, Git & GitHub/RepositorioHenry/CarpetaHenry (main)
+$ git add primerArchivo.txt
+
+altor@AlexisTorruco MINGW64 ~/OneDrive/Documentos/HENRY FULL STACK DEVELOPER/MÓDULO 0/03. HomeWork M0 - C2 Terminal, Git & GitHub/RepositorioHenry/CarpetaHenry (main)
+$ git commit -m "Ejercicios1-4 C2 Terminal, Git & GitHub"
+[main 4a1f002] Ejercicios1-4 C2 Terminal, Git & GitHub
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 CarpetaHenry/primerArchivo.txt
+
+altor@AlexisTorruco MINGW64 ~/OneDrive/Documentos/HENRY FULL STACK DEVELOPER/MÓDULO 0/03. HomeWork M0 - C2 Terminal, Git & GitHub/RepositorioHenry/CarpetaHenry (main)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 18 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 367 bytes | 183.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/AlexisTorruco/RepositorioHenry.git
+   148bd4a..4a1f002  main -> main
+
+altor@AlexisTorruco MINGW64 ~/OneDrive/Documentos/HENRY FULL STACK DEVELOPER/MÓDULO 0/03. HomeWork M0 - C2 Terminal, Git & GitHub/RepositorioHenry/CarpetaHenry (main)
+$ pwd
+/c/Users/altor/OneDrive/Documentos/HENRY FULL STACK DEVELOPER/MÓDULO 0/03. HomeWork M0 - C2 Terminal, Git & GitHub/RepositorioHenry/CarpetaHenry
+
+altor@AlexisTorruco MINGW64 ~/OneDrive/Documentos/HENRY FULL STACK DEVELOPER/MÓDULO 0/03. HomeWork M0 - C2 Terminal, Git & GitHub/RepositorioHenry/CarpetaHenry (main)
+$ ls
+primerArchivo.txt
+
+altor@AlexisTorruco MINGW64 ~/OneDrive/Documentos/HENRY FULL STACK DEVELOPER/MÓDULO 0/03. HomeWork M0 - C2 Terminal, Git & GitHub/RepositorioHenry/CarpetaHenry (main)
+$ code .
+
+altor@AlexisTorruco MINGW64 ~/OneDrive/Documentos/HENRY FULL STACK DEVELOPER/MÓDULO 0/03. HomeWork M0 - C2 Terminal, Git & GitHub/RepositorioHenry/CarpetaHenry (main)
+$
